@@ -4,8 +4,8 @@ import psutil
 import time
 
 import thingspeak
-channel_id = # PUT CHANNEL ID HERE
-write_key  = # PUT YOUR WRITE KEY HERE
+channel_id = "123456" # Change to your Channel ID
+write_key  = "ABCDEF" # Change to your Write API Key
 
 def doit(channel):
 
